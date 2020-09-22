@@ -42,42 +42,32 @@
                 </header>
                 <article class="row">
                     <div class="col">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia sodales leo non
-                            finibus. Nunc
-                            malesuada dolor et est placerat, vel tincidunt metus ultrices. Vivamus velit est, facilisis
-                            vel
-                            mollis id, dapibus at massa. Suspendisse at magna vel massa hendrerit blandit dictum
-                            pharetra ante.
-                            Etiam tristique aliquet elit, ut ornare justo. Cras ut mi facilisis, tristique elit
-                            facilisis,
-                            pretium neque. Quisque ante orci, ullamcorper sit amet magna id, ultrices vulputate elit.
-                            Nullam eu
-                            tempor urna.
-                        </p>
-                        <p>
-                            Vivamus lectus nisl, tincidunt et convallis eu, vulputate non nunc. Curabitur dui lacus,
-                            imperdiet
-                            vitae venenatis et, pharetra eget leo. Praesent consequat tortor metus, sed sodales libero
-                            condimentum ut. Duis mollis nisi neque, interdum interdum neque bibendum ac. Ut varius,
-                            magna sit
-                            amet vestibulum sollicitudin, velit odio sollicitudin arcu, vitae porttitor eros orci id
-                            nisi. Sed
-                            scelerisque nibh lectus, eu dignissim lectus fringilla sed. Mauris lacinia nisi ac ornare
-                            pretium.
-                            Donec odio diam, mattis id quam id, pellentesque interdum ante.
-                        </p>
-                    </div>
-                    <div class="col">
-                        <p>
-                            Nullam orci dui, ultrices venenatis mattis ut, gravida eget enim. Vestibulum rhoncus velit
-                            nunc.
-                            Nunc vitae justo sollicitudin, commodo velit nec, elementum orci. Donec dapibus eget urna
-                            sit amet
-                            malesuada. Nulla at elit vitae urna fermentum luctus. Praesent placerat velit sed sapien
-                            tincidunt,
-                            quis vehicula sapien blandit. Donec bibendum vel lacus vel lobortis. Etiam vitae ligula est.
-                        </p>
+                        <div class="card-deck">
+                            <div class="card">
+                                <img src="http://placekitten.com/200/300" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                    <p class="card-text"><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">View</button></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="http://placekitten.com/200/302" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                                    <p class="card-text"><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">View</button></p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <img src="http://placekitten.com/200/304" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                                    <p class="card-text"><button class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">View</button></p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </article>
             </section>
@@ -105,7 +95,25 @@
         </main>
     </div>
 
-
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <img class="img-fluid" src="http://placekitten.com/800/600" alt="...">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
